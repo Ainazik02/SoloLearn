@@ -1,0 +1,6 @@
+*HTML5 has introduced a new attribute called placeholder. On <input> and <textarea> elements, this attribute provides a hint to the user of what information can be entered into the field.
+
+*The **autocomplete** attribute specifies whether a form or input field should have autocomplete turned on or off.
+When autocomplete is on, the browser automatically complete values based on values that the user has entered before.
+
+*The <datalist> tag can be used to define a list of pre-defined options for the search field:
