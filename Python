@@ -26,3 +26,17 @@ When to use the other types:
 - Use lists if you have a collection of data that does not need random access. Try to choose lists when you need a simple, iterable collection that is modified frequently.
 - Use a set if you need uniqueness for the elements.
 - Use tuples when your data cannot change.
+
+
+
+
+More magic methods for common operators:
+__sub__ for -
+__mul__ for *
+__truediv__ for /
+__floordiv__ for //
+__mod__ for %
+__pow__ for **
+__and__ for &
+__xor__ for ^
+__or__ for |
