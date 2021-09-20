@@ -44,3 +44,4 @@ __or__ for |
 
 The next two metacharacters are ^ and $.
 These match the start and end of a string, respectively.
+Ex:The pattern "^gr.y$" means that the string should start with gr, then follow with any character, except a newline, and end with y.
