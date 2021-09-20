@@ -12,9 +12,9 @@ The intersection operator & gets items only in both.
 The difference operator - gets items in the first set but not in the second.
 The symmetric difference operator ^ gets items in either set, but not both.
 
+---------------------------------------------------------------
+
 Data Structures
-
-
 As we have seen in the previous lessons, Python supports the following data structures: lists, dictionaries, tuples, sets.
 
 When to use a dictionary:
@@ -28,6 +28,7 @@ When to use the other types:
 - Use tuples when your data cannot change.
 
 
+---------------------------------------------------------------
 
 
 More magic methods for common operators:
@@ -41,7 +42,17 @@ __and__ for &
 __xor__ for ^
 __or__ for |
 
+---------------------------------------------------------------
 
 The next two metacharacters are ^ and $.
 These match the start and end of a string, respectively.
 Ex:The pattern "^gr.y$" means that the string should start with gr, then follow with any character, except a newline, and end with y.
+---------------------------------------------------------------
+PEP 8 is a style guide on the subject of writing readable code. It contains a number of guidelines in reference to variable names, which are summarized here:
+- modules should have short, all-lowercase names;
+- class names should be in the CapWords style;
+- most variables and function names should be lowercase_with_underscores;
+- constants (variables that never change value) should be CAPS_WITH_UNDERSCORES;
+- names that would clash with Python keywords (such as 'class' or 'if') should have a trailing underscore.
+
+PEP 8 also recommends using spaces around operators and after commas to increase readability.
