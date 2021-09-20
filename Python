@@ -40,3 +40,7 @@ __pow__ for **
 __and__ for &
 __xor__ for ^
 __or__ for |
+
+
+The next two metacharacters are ^ and $.
+These match the start and end of a string, respectively.
